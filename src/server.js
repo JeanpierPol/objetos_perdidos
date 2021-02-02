@@ -23,6 +23,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({extended:true}));
 
 //routes
-
+app.use(require('./routes/rtMain'));
+app.use(require('./routes/rtObjetos'))
 
 module.exports = app;
