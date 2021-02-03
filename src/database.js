@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost:27017/ObjetosPerdidos', {
+mongoose.connect('mongodb://LocalAdmin:inalbis@localhost:27017', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,

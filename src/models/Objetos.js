@@ -6,7 +6,7 @@ const schemaObjeto = new Schema({
     telefono: {type:String, required:true},
     titulo:{type:String},
     descripcion:{type:String},
-    foto:{type:String,default:'/images/default.png'}    
+    //foto:{type:String,default:'/images/default.png'}    
 })
 
 class Objeto extends Model{

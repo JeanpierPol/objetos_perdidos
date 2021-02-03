@@ -2,10 +2,11 @@ const express = require('express')
 const rtObjetos = express.Router()
 const Objeto = require('../models/Objetos')
 
-rtObjetos.get('/nuevo', function (req, res) {
+rtObjetos.get('/nuevoObjeto', function (req, res) {
     res.render('objetos/formulario')
 })
 
+rtObjetos.post('')
 
 
 
